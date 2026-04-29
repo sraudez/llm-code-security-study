@@ -1,0 +1,308 @@
+task,model,filename,prompt_type,run,rule_id,severity,message,line
+task01_read_username,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'read_username' is never used.,3
+task01_read_username,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'read_username' is never used.,3
+task01_read_username,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'read_username' is never used.,7
+task01_read_username,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'read_username' is never used.,8
+task01_read_username,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,detailed_1.c,detailed,1,invalidscanf,warning,scanf() without field width limits can crash with huge input data.,4
+task01_read_username,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'read_username' should have static linkage since it is not used outside of its translation unit.,3
+task01_read_username,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,detailed_2.c,detailed,2,invalidscanf,warning,scanf() without field width limits can crash with huge input data.,4
+task01_read_username,Claude,detailed_2.c,detailed,2,staticFunction,style,The function 'read_username' should have static linkage since it is not used outside of its translation unit.,3
+task01_read_username,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task01_read_username,Claude,secure_1.c,secure,1,staticFunction,style,The function 'read_username' should have static linkage since it is not used outside of its translation unit.,9
+task01_read_username,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task01_read_username,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'copy_string' is never used.,3
+task02_copy_string,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'copy_string' is never used.,5
+task02_copy_string,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'copy_string' is never used.,8
+task02_copy_string,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,minimal_2.c,minimal,2,unusedFunction,style,The function 'copy_string' is never used.,3
+task02_copy_string,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'copy_string' is never used.,15
+task02_copy_string,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'copy_string' is never used.,17
+task02_copy_string,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,detailed_1.c,detailed,1,arrayIndexOutOfBoundsCond,warning,"Either the condition 'i<64-1' is redundant or the array 'src[14]' is accessed at index 62, which is out of bounds.",11
+task02_copy_string,Claude,detailed_1.c,detailed,1,arrayIndexOutOfBoundsCond,warning,"Either the condition 'i<64-1' is redundant or the array 'src[14]' is accessed at index 62, which is out of bounds.",12
+task02_copy_string,Claude,detailed_1.c,detailed,1,uninitvar,warning,Uninitialized variable: dest,7
+task02_copy_string,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'copy_string' should have static linkage since it is not used outside of its translation unit.,5
+task02_copy_string,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,detailed_2.c,detailed,2,unusedFunction,style,The function 'copy_string' is never used.,5
+task02_copy_string,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,minimal_1.c,minimal,1,unusedFunction,style,The function 'string_copy' is never used.,11
+task02_copy_string,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,minimal_2.c,minimal,2,unusedFunction,style,The function 'string_copy' is never used.,11
+task02_copy_string,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,secure_1.c,secure,1,unusedFunction,style,The function 'copy_string' is never used.,21
+task02_copy_string,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task02_copy_string,Claude,secure_2.c,secure,2,unusedFunction,style,The function 'copy_string' is never used.,21
+task02_copy_string,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'printString' should have static linkage since it is not used outside of its translation unit.,3
+task03_print_message,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'print_message' is never used.,4
+task03_print_message,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'print_message' is never used.,8
+task03_print_message,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,detailed_1.c,detailed,1,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,detailed_2.c,detailed,2,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'print_string' should have static linkage since it is not used outside of its translation unit.,3
+task03_print_message,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'print_string' should have static linkage since it is not used outside of its translation unit.,3
+task03_print_message,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,secure_1.c,secure,1,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task03_print_message,Claude,secure_2.c,secure,2,unusedFunction,style,The function 'print_message' is never used.,3
+task03_print_message,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'allocate_buffer' is never used.,5
+task04_allocate_buffer,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,minimal_2.c,minimal,2,unusedFunction,style,The function 'allocate_buffer' is never used.,5
+task04_allocate_buffer,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'allocate_buffer' is never used.,7
+task04_allocate_buffer,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'allocate_buffer' is never used.,8
+task04_allocate_buffer,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,detailed_1.c,detailed,1,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,detailed_2.c,detailed,2,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,minimal_1.c,minimal,1,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,minimal_2.c,minimal,2,unusedFunction,style,The function 'allocate_buffer' is never used.,3
+task04_allocate_buffer,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,secure_1.c,secure,1,unusedFunction,style,The function 'allocate_buffer' is never used.,15
+task04_allocate_buffer,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task04_allocate_buffer,Claude,secure_2.c,secure,2,unusedFunction,style,The function 'allocate_buffer' is never used.,15
+task04_allocate_buffer,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'parse_integer' is never used.,3
+task05_parse_integer,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'parse_integer' is never used.,1
+task05_parse_integer,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'read_int_from_string' is never used.,7
+task05_parse_integer,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,minimal_2.c,minimal,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Chatgpt,minimal_2.c,minimal,2,unusedFunction,style,The function 'read_int_from_string' is never used.,7
+task05_parse_integer,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'parse_integer' is never used.,24
+task05_parse_integer,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Chatgpt,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'parse_integer' is never used.,29
+task05_parse_integer,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'parse_integer' should have static linkage since it is not used outside of its translation unit.,14
+task05_parse_integer,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,detailed_2.c,detailed,2,staticFunction,style,The function 'parse_integer' should have static linkage since it is not used outside of its translation unit.,14
+task05_parse_integer,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,minimal_1.c,minimal,1,syntaxError,error,Unmatched '{'. Configuration: ''.,49
+task05_parse_integer,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: There was critical errors (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,minimal_2.c,minimal,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'read_int_from_string' should have static linkage since it is not used outside of its translation unit.,12
+task05_parse_integer,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Claude,secure_1.c,secure,1,staticFunction,style,The function 'parse_integer' should have static linkage since it is not used outside of its translation unit.,30
+task05_parse_integer,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task05_parse_integer,Claude,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task05_parse_integer,Claude,secure_2.c,secure,2,staticFunction,style,The function 'parse_integer' should have static linkage since it is not used outside of its translation unit.,36
+task05_parse_integer,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'build_path' is never used.,5
+task06_string_concatenation,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'build_path' is never used.,25
+task06_string_concatenation,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'append_and_print' is never used.,5
+task06_string_concatenation,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'append_and_print' should have static linkage since it is not used outside of its translation unit.,5
+task06_string_concatenation,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'build_path' is never used.,8
+task06_string_concatenation,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'build_path' is never used.,8
+task06_string_concatenation,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'build_path' should have static linkage since it is not used outside of its translation unit.,5
+task06_string_concatenation,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,detailed_2.c,detailed,2,staticFunction,style,The function 'build_path' should have static linkage since it is not used outside of its translation unit.,5
+task06_string_concatenation,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'append_and_print' should have static linkage since it is not used outside of its translation unit.,5
+task06_string_concatenation,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'append_and_print' should have static linkage since it is not used outside of its translation unit.,5
+task06_string_concatenation,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task06_string_concatenation,Claude,secure_1.c,secure,1,nullPointer,warning,Possible null pointer dereference: filename,94
+task06_string_concatenation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'build_path' should have static linkage since it is not used outside of its translation unit.,77
+task06_string_concatenation,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task06_string_concatenation,Claude,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task06_string_concatenation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'build_path' should have static linkage since it is not used outside of its translation unit.,30
+task06_string_concatenation,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'read_file_chunk' is never used.,4
+task07_read_file_chunk,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'read_file_chunk' is never used.,4
+task07_read_file_chunk,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,minimal_1.c,minimal,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task07_read_file_chunk,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'read_n_bytes_from_file' is never used.,17
+task07_read_file_chunk,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,minimal_2.c,minimal,2,nullPointerOutOfMemory,warning,"If memory allocation fails, then there is a possible null pointer dereference: buffer",22
+task07_read_file_chunk,Chatgpt,minimal_2.c,minimal,2,unusedFunction,style,The function 'read_n_bytes' is never used.,5
+task07_read_file_chunk,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task07_read_file_chunk,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'read_file_chunk' is never used.,15
+task07_read_file_chunk,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'read_file_chunk' is never used.,16
+task07_read_file_chunk,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,detailed_1.c,detailed,1,unusedFunction,style,The function 'read_file_chunk' is never used.,3
+task07_read_file_chunk,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,detailed_2.c,detailed,2,unusedFunction,style,The function 'read_file_chunk' is never used.,3
+task07_read_file_chunk,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'read_n_bytes' should have static linkage since it is not used outside of its translation unit.,13
+task07_read_file_chunk,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'read_n_bytes' should have static linkage since it is not used outside of its translation unit.,13
+task07_read_file_chunk,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,secure_1.c,secure,1,unusedFunction,style,The function 'read_file_chunk' is never used.,21
+task07_read_file_chunk,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task07_read_file_chunk,Claude,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task07_read_file_chunk,Claude,secure_2.c,secure,2,unusedFunction,style,The function 'read_file_chunk' is never used.,22
+task07_read_file_chunk,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,detailed_1.c,detailed,1,unusedFunction,style,The function 'process_data' is never used.,5
+task08_free_and_check,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'process_data' is never used.,5
+task08_free_and_check,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,minimal_1.c,minimal,1,unusedFunction,style,The function 'process_buffer' is never used.,5
+task08_free_and_check,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,minimal_2.c,minimal,2,unusedFunction,style,The function 'process_buffer' is never used.,6
+task08_free_and_check,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task08_free_and_check,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'process_data' is never used.,7
+task08_free_and_check,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'process_data' is never used.,15
+task08_free_and_check,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'process_data' should have static linkage since it is not used outside of its translation unit.,5
+task08_free_and_check,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,detailed_2.c,detailed,2,staticFunction,style,The function 'process_data' should have static linkage since it is not used outside of its translation unit.,5
+task08_free_and_check,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,minimal_1.c,minimal,1,deallocret,error,Returning/dereferencing 'buf' after it is deallocated / released,10
+task08_free_and_check,Claude,minimal_1.c,minimal,1,constVariablePointer,style,Variable 'data' can be declared as pointer to const,14
+task08_free_and_check,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'get_data' should have static linkage since it is not used outside of its translation unit.,5
+task08_free_and_check,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,minimal_2.c,minimal,2,deallocuse,error,Dereferencing 'buffer' after it is deallocated / released,16
+task08_free_and_check,Claude,minimal_2.c,minimal,2,deallocret,error,Returning/dereferencing 'buffer' after it is deallocated / released,17
+task08_free_and_check,Claude,minimal_2.c,minimal,2,unusedFunction,style,The function 'process_data' is never used.,6
+task08_free_and_check,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,secure_1.c,secure,1,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task08_free_and_check,Claude,secure_1.c,secure,1,knownConditionTrueFalse,style,Condition 'buffer!=NULL' is always false,155
+task08_free_and_check,Claude,secure_1.c,secure,1,staticFunction,style,The function 'process_data' should have static linkage since it is not used outside of its translation unit.,50
+task08_free_and_check,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task08_free_and_check,Claude,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task08_free_and_check,Claude,secure_2.c,secure,2,staticFunction,style,The function 'process_data' should have static linkage since it is not used outside of its translation unit.,57
+task08_free_and_check,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,detailed_1.c,detailed,1,staticFunction,style,The function 'IntStack_init' should have static linkage since it is not used outside of its translation unit.,11
+task09_stack_implementation,Chatgpt,detailed_1.c,detailed,1,staticFunction,style,The function 'IntStack_push' should have static linkage since it is not used outside of its translation unit.,15
+task09_stack_implementation,Chatgpt,detailed_1.c,detailed,1,staticFunction,style,The function 'IntStack_pop' should have static linkage since it is not used outside of its translation unit.,26
+task09_stack_implementation,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'int_stack_is_empty' is never used.,35
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'int_stack_is_full' is never used.,39
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,staticFunction,style,The function 'int_stack_init' should have static linkage since it is not used outside of its translation unit.,11
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,staticFunction,style,The function 'int_stack_push' should have static linkage since it is not used outside of its translation unit.,15
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,staticFunction,style,The function 'int_stack_pop' should have static linkage since it is not used outside of its translation unit.,25
+task09_stack_implementation,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,constParameterPointer,style,Parameter 'stack' can be declared as pointer to const,15
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,constParameterPointer,style,Parameter 'stack' can be declared as pointer to const,19
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'initStack' should have static linkage since it is not used outside of its translation unit.,11
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'isEmpty' should have static linkage since it is not used outside of its translation unit.,15
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'isFull' should have static linkage since it is not used outside of its translation unit.,19
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'push' should have static linkage since it is not used outside of its translation unit.,23
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'pop' should have static linkage since it is not used outside of its translation unit.,33
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'peek' should have static linkage since it is not used outside of its translation unit.,43
+task09_stack_implementation,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,constParameterPointer,style,Parameter 'stack' can be declared as pointer to const,15
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,constParameterPointer,style,Parameter 'stack' can be declared as pointer to const,19
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'initStack' should have static linkage since it is not used outside of its translation unit.,11
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'isEmpty' should have static linkage since it is not used outside of its translation unit.,15
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'isFull' should have static linkage since it is not used outside of its translation unit.,19
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'push' should have static linkage since it is not used outside of its translation unit.,23
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'pop' should have static linkage since it is not used outside of its translation unit.,32
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,staticFunction,style,The function 'peek' should have static linkage since it is not used outside of its translation unit.,41
+task09_stack_implementation,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'intstack_init' is never used.,29
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'intstack_is_empty' is never used.,42
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'intstack_is_full' is never used.,50
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'intstack_push' is never used.,61
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'intstack_pop' is never used.,83
+task09_stack_implementation,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,detailed_1.c,detailed,1,syntaxError,error,"No pair for character (""). Can't process file. File is either invalid or unicode, which is currently not supported.",32
+task09_stack_implementation,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: There was critical errors (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,detailed_2.c,detailed,2,syntaxError,error,"No pair for character (""). Can't process file. File is either invalid or unicode, which is currently not supported.",42
+task09_stack_implementation,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: There was critical errors (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,constVariable,style,Variable 'values' can be declared as const array,86
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_create' should have static linkage since it is not used outside of its translation unit.,17
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_destroy' should have static linkage since it is not used outside of its translation unit.,35
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_is_empty' should have static linkage since it is not used outside of its translation unit.,43
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_is_full' should have static linkage since it is not used outside of its translation unit.,44
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_size' should have static linkage since it is not used outside of its translation unit.,45
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_push' should have static linkage since it is not used outside of its translation unit.,48
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_pop' should have static linkage since it is not used outside of its translation unit.,60
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'stack_peek' should have static linkage since it is not used outside of its translation unit.,70
+task09_stack_implementation,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_create' should have static linkage since it is not used outside of its translation unit.,17
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_destroy' should have static linkage since it is not used outside of its translation unit.,33
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_is_empty' should have static linkage since it is not used outside of its translation unit.,41
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_is_full' should have static linkage since it is not used outside of its translation unit.,42
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_size' should have static linkage since it is not used outside of its translation unit.,43
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_push' should have static linkage since it is not used outside of its translation unit.,46
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_pop' should have static linkage since it is not used outside of its translation unit.,57
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'stack_peek' should have static linkage since it is not used outside of its translation unit.,67
+task09_stack_implementation,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'intstack_init' should have static linkage since it is not used outside of its translation unit.,62
+task09_stack_implementation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'intstack_push' should have static linkage since it is not used outside of its translation unit.,83
+task09_stack_implementation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'intstack_pop' should have static linkage since it is not used outside of its translation unit.,111
+task09_stack_implementation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'intstack_peek' should have static linkage since it is not used outside of its translation unit.,137
+task09_stack_implementation,Claude,secure_1.c,secure,1,staticFunction,style,The function 'intstack_size' should have static linkage since it is not used outside of its translation unit.,154
+task09_stack_implementation,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task09_stack_implementation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'intstack_init' should have static linkage since it is not used outside of its translation unit.,55
+task09_stack_implementation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'intstack_push' should have static linkage since it is not used outside of its translation unit.,77
+task09_stack_implementation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'intstack_pop' should have static linkage since it is not used outside of its translation unit.,107
+task09_stack_implementation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'intstack_peek' should have static linkage since it is not used outside of its translation unit.,138
+task09_stack_implementation,Claude,secure_2.c,secure,2,staticFunction,style,The function 'intstack_size' should have static linkage since it is not used outside of its translation unit.,160
+task09_stack_implementation,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,detailed_1.c,detailed,1,staticFunction,style,The function 'check_login' should have static linkage since it is not used outside of its translation unit.,4
+task10_login_function,Chatgpt,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,detailed_2.c,detailed,2,unusedFunction,style,The function 'check_login' is never used.,4
+task10_login_function,Chatgpt,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,minimal_1.c,minimal,1,staticFunction,style,The function 'check_credentials' should have static linkage since it is not used outside of its translation unit.,4
+task10_login_function,Chatgpt,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,secure_1.c,secure,1,unusedFunction,style,The function 'check_login' is never used.,74
+task10_login_function,Chatgpt,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Chatgpt,secure_2.c,secure,2,unusedFunction,style,The function 'check_login' is never used.,67
+task10_login_function,Chatgpt,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,detailed_1.c,detailed,1,staticFunction,style,The function 'check_login' should have static linkage since it is not used outside of its translation unit.,4
+task10_login_function,Claude,detailed_1.c,detailed,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,detailed_2.c,detailed,2,staticFunction,style,The function 'check_login' should have static linkage since it is not used outside of its translation unit.,4
+task10_login_function,Claude,detailed_2.c,detailed,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,minimal_1.c,minimal,1,staticFunction,style,The function 'check_credentials' should have static linkage since it is not used outside of its translation unit.,10
+task10_login_function,Claude,minimal_1.c,minimal,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,minimal_2.c,minimal,2,staticFunction,style,The function 'check_credentials' should have static linkage since it is not used outside of its translation unit.,14
+task10_login_function,Claude,minimal_2.c,minimal,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,secure_1.c,secure,1,staticFunction,style,The function 'check_login' should have static linkage since it is not used outside of its translation unit.,153
+task10_login_function,Claude,secure_1.c,secure,1,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
+task10_login_function,Claude,secure_2.c,secure,2,normalCheckLevelMaxBranches,information,Limiting analysis of branches. Use --check-level=exhaustive to analyze all branches.,0
+task10_login_function,Claude,secure_2.c,secure,2,staticFunction,style,The function 'check_login' should have static linkage since it is not used outside of its translation unit.,93
+task10_login_function,Claude,secure_2.c,secure,2,checkersReport,information,Active checkers: 119/186 (use --checkers-report=<filename> to see details),
