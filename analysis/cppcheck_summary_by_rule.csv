@@ -1,0 +1,8 @@
+task,rule_id,prompt_type,model,severity,count,distinct_files,error,warning,style,information,unknown,example_message
+task01_read_username,invalidscanf,detailed,Claude,warning,2,2,0,2,0,0,0,scanf() without field width limits can crash with huge input data.
+task02_copy_string,arrayIndexOutOfBoundsCond,detailed,Claude,warning,2,1,0,2,0,0,0,"Either the condition 'i<64-1' is redundant or the array 'src[14]' is accessed at index 62, which is out of bounds."
+task02_copy_string,uninitvar,detailed,Claude,warning,1,1,0,1,0,0,0,Uninitialized variable: dest
+task06_string_concatenation,nullPointer,secure,Claude,warning,1,1,0,1,0,0,0,Possible null pointer dereference: filename
+task07_read_file_chunk,nullPointerOutOfMemory,minimal,Chatgpt,warning,1,1,0,1,0,0,0,"If memory allocation fails, then there is a possible null pointer dereference: buffer"
+task08_free_and_check,deallocret,minimal,Claude,error,2,2,2,0,0,0,0,Returning/dereferencing 'buf' after it is deallocated / released
+task08_free_and_check,deallocuse,minimal,Claude,error,1,1,1,0,0,0,0,Dereferencing 'buffer' after it is deallocated / released
